@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'runa';
+    src: url(/public/assets/fonts/RunelikeFree-Regular.ttf);
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'medieval';
+    src: url(/public/assets/fonts/Por\ Siempre\ Gótica.ttf);
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'padrao';
+    src: url(/public/assets/fonts/woodgod.ttf);
+}
+

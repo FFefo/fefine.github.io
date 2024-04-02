@@ -1,0 +1,110 @@
+.universo{
+    background-color: #121212;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.cabeçalho{
+    background-color: #1E1E1E;
+}
+
+.cabeçalho a{
+    font-family: 'runa';
+    color: #A447FE;
+    transition: all.3s;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
+.cabeçalho, .gold{
+    font-family: 'runa';
+    color: goldenrod !important;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: 'medieval';
+    font-size: 50px;
+    color: #A447FE;
+    
+}
+
+h2{
+    font-family: 'medieval';
+    font-size: 30px;
+    color: #820cb9;
+    
+}
+
+.categoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px 70px;
+    color: #ffffff;
+}
+
+.produtos{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.imagem{
+    border: 5px solid #820cb9;
+    width: 300px;
+    height: 300px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid #820cb9;
+    border-top: 0px;
+    height: 300px;
+    width: 300px;
+    gap: 15px;
+    background-color: #e2b7fa;
+    color: black;
+    font-family: 'padrao';
+}
+
+.mapa1, .mapa2, .mapa3{
+    box-shadow: 5px 5px 25px #a95ac9;
+    margin-bottom: 15px;
+}
+
+.info p{
+    color: #000000;
+    font-size: 40px;
+    padding-top: 1vh;
+    font-family: 'medieval';
+}
+
+.info a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'medieval';
+    background-color: #820cb9;
+    color: #ffeed4;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    transition: all.3s;
+}
